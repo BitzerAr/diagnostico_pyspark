@@ -8,4 +8,4 @@ if __name__ == '__main__':
         .builder \
         .master(SPARK_MODE) \
         .getOrCreate()
-    transformer = Transformer(spark)
+    transformer = Transformer(spark, FLAG)
